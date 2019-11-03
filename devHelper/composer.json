@@ -1,0 +1,20 @@
+{
+    "name": "andersonlucas/code_helper",
+    "description": "Projeto desenvolvido para ajudar no desenvolvimento das minhas tarefas no que se refere aos comandos utilizados no dia dia e demais ferramentas.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Anderson Lucas",
+            "email": "a.lucassilvadeoliveira@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload":{
+        "psr-4": {
+            "helper\\": "./"
+        },
+        "files": [
+            "helpers/functions.php"
+        ]
+    }
+}
